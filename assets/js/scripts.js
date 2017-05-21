@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 	    var postdata = $(this).serialize();
 	    $.ajax({
 	        type: 'POST',
-	        url: 'assets/subscribe.php',
+	        url: 'http://formspree.io/nesa993@gmail.com',
 	        data: postdata,
 	        dataType: 'json',
 	        success: function(json) {
